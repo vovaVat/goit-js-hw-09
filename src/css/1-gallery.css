@@ -1,0 +1,36 @@
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 24px;
+  row-gap: 24px;
+  justify-content: center;
+  margin-left: 156px;
+  margin-right: 156px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+ul{
+  list-style: none;
+}
+
+.gallery-item{
+  position: relative;
+  flex-basis: calc((100% - 72px) / 3);
+  justify-content: center;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.gallery-image{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.04);
+}
