@@ -2,5 +2,5 @@ import{S as n}from"./assets/vendor-CgTBfC_f.js";(function(){const t=document.cre
       <a class="gallery-link" href="${a}">
         <img class="gallery-image" src="${t}" alt="${i}" />
       </a>
-    </li>`).join(""),l=document.querySelector(".gallery");l.insertAdjacentHTML("beforeend",s);new n(".gallery-link");
+    </li>`).join(""),l=document.querySelector(".gallery");l.insertAdjacentHTML("beforeend",s);new n(".gallery-link",{captionsData:"alt",captionDelay:250,captionPosition:"bottom"});
 //# sourceMappingURL=1-gallery.js.map
